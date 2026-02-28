@@ -1,4 +1,3 @@
-import React from 'react';
 import Navigation from './navigation';
 
 const AboutMe = () => {
@@ -28,20 +27,23 @@ const AboutMe = () => {
                     <div>
                         <h3 className="text-teal-600 font-bold text-lg mb-2">Hard Skills</h3>
                         <ul className="space-y-1 text-sm">
-                            <li><span className="font-medium">HTML5/CSS3, BootStrap</span></li>
-                            <li><span className="font-medium">Php:</span> Laravel, symfony, wordpress</li>
-                            <li><span className="font-medium">JavaScript:</span> ReactJs, ExpressJs</li>
-                            <li><span className="font-medium">Python:</span> django</li>
-                            <li><span className="font-medium">Pharo</span></li>
+                            <li><span className="font-medium  text-teal-600">Web:</span> HTML5/CSS3, BootStrap,Tailwind, W3css</li>
+                            <li><span className="font-medium  text-teal-600">Php:</span> Laravel, symfony, wordpress</li>
+                            <li><span className="font-medium  text-teal-600">JavaScript:</span> ReactJs, ExpressJs</li>
+                            <li><span className="font-medium  text-teal-600">Java:</span> Desktop, jsp, hibernate</li>
+                            <li><span className="font-medium  text-teal-600">Python:</span> django</li>
+                            <li><span className="font-medium  text-teal-600">Notion:</span>C, C++, C#</li>
                         </ul>
                     </div>
 
                 {/* Colonne Droite - Tech & Langues */}
                     <ul className="space-y-1 text-sm">
-                    <li><span className="font-medium text-teal-600">SQL :</span> Mysql , PostgreSQL</li>
-                    <li><span className="font-medium text-teal-600">Méthode :</span> Agile, Merise, 2TUP/UML</li>
-                    <li><span className="font-medium text-teal-600">Design :</span> Figma, Photoshop</li>
-                    <li><span className="font-medium text-teal-600">Git :</span> github/gitlab</li>
+                        <li><span className="font-medium text-teal-600">SQL :</span> Mysql , PostgreSQL</li>
+                        <li><span className="font-medium text-teal-600">Méthode :</span> Agile, Merise, 2TUP/UML</li>
+                        <li><span className="font-medium text-teal-600">Design :</span> Figma, Photoshop</li>
+                        <li><span className="font-medium text-teal-600">Git :</span> github/gitlab</li>
+                        <li><span className="font-medium text-teal-600">Deployment :</span> vercel, netlify, github pages</li>
+                        <li><span className="font-medium text-teal-600">Tools :</span> Bonita, Mindomo, pack office, postman, zotero</li>
                     </ul>
                 </div>
 
@@ -49,29 +51,29 @@ const AboutMe = () => {
                     <div>
                         <h3 className="text-teal-600 font-bold text-lg mb-2">Soft Skills</h3>
                         <ul className="space-y-1 text-sm">
-                            <li><span className="font-medium">Curieux</span></li>
-                            <li><span className="font-medium">Sérieuse</span></li>
-                            <li><span className="font-medium">Ponctuelle</span></li>
-                            <li><span className="font-medium">Travail en équipe</span></li>
-                            <li><span className="font-medium">Rigueur</span></li>
+                            <li><span className="font-medium">Curious</span></li>
+                            <li><span className="font-medium">Serious</span></li>
+                            <li><span className="font-medium">Punctual</span></li>
+                            <li><span className="font-medium">Teamwork</span></li>
+                            <li><span className="font-medium">Rigor</span></li>
                         </ul>
                     </div>
 
                     <div>
                         <h3 className="text-teal-600 font-bold text-lg mb-2">Language</h3>
                         <ul className="space-y-1 text-sm">
-                            <li>Anglais : intermediaire</li>
-                            <li>Français : courant</li>
-                            <li>Malagasy : Avancé</li>
+                            <li>English : intermediate</li>
+                            <li>French : fluent</li>
+                            <li>Malagasy : advanced</li>
                         </ul>
                     </div>
 
                     <div>
                         <h3 className="text-teal-600 font-bold text-lg mb-2">Divers</h3>
                         <ul className="space-y-1 text-sm">
-                            <li>Chanté</li>
-                            <li>Ecouter de la musique</li>
-                            <li>Faire des arts</li>
+                            <li>Singing</li>
+                            <li>Listen musique</li>
+                            <li>Making creations: knitting, home design</li>
                         </ul>
                     </div>
                 </div>
