@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navigation from "./navigation";
 import profileImg from "../assets/profile.jpg";
-import logoImg from "../assets/logo.PNG";
+import logoImg from "../assets/logo.png";
 import gitIcon from "../assets/git.png";
 import phoneIcon from "../assets/phone.png";
 import mailIcon from "../assets/mail.png";
@@ -10,7 +10,7 @@ function Profile() {
   return (
     <>
       {/* Petits points décoratifs en haut à droite */}
-      <div className="absolute top-8 right-12 flex gap-2">
+      <div className="absolute w-20 h-20 top-8 right-12 flex gap-2">
         <img 
             src={logoImg}  
             alt="Julie HARISOA" 
