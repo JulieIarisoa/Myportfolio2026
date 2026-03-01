@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Navigation from "./navigation";
+import profileImg from "../assets/profile.jpg";
+import logoImg from "../assets/logo.PNG";
 
 function Profile() {
   return (
@@ -7,7 +9,7 @@ function Profile() {
       {/* Petits points décoratifs en haut à droite */}
       <div className="absolute top-8 right-12 flex gap-2">
         <img 
-            src="./src/assets/logo.PNG"  
+            src={logoImg}  
             alt="Julie HARISOA" 
           />
       </div>
@@ -17,7 +19,7 @@ function Profile() {
         {/* Colonne Gauche : Photo de profil avec le cercle de fond */}
         <div className="relative">
           <img 
-            src="./src/assets/profile.jpg" 
+            src={profileImg} 
             className="w-64 h-64 rounded-full object-cover shadow-lg" 
             alt="Julie HARISOA" 
           />
