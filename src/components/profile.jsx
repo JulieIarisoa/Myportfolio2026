@@ -2,6 +2,9 @@ import { useState } from "react";
 import Navigation from "./navigation";
 import profileImg from "../assets/profile.jpg";
 import logoImg from "../assets/logo.PNG";
+import gitIcon from "../assets/git.png";
+import phoneIcon from "../assets/phone.png";
+import mailIcon from "../assets/mail.png";
 
 function Profile() {
   return (
@@ -42,13 +45,13 @@ function Profile() {
           {/* Colonne Contact*/}
           <div className="absolute right-0 flex flex-row items-end text-sm relative font-medium">
             <a href="https://github.com/JulieIarisoa" target="_blank" rel="noopener noreferrer">
-              <ContactItem icon="./src/assets/git.png" text="Julielarisoa" />
+              <ContactItem icon={gitIcon} text="Julielarisoa" />
             </a>
             <a href="https://wa.me/261349601405" target="_blank" rel="noopener noreferrer">
-              <ContactItem icon="./src/assets/phone.png" text="+261 34 96 014 05" />
+              <ContactItem icon={phoneIcon} text="+261 34 96 014 05" />
             </a>
             <a href="mailto:julieharisoa9@gmail.com" target="_blank" rel="noopener noreferrer">
-              <ContactItem icon="./src/assets/mail.png" text="julieharisoa9@gmail.com" />
+              <ContactItem icon={mailIcon} text="julieharisoa9@gmail.com" />
             </a>
           </div>
         </div>

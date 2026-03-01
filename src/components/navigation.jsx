@@ -1,13 +1,16 @@
 import { useState } from "react";
+import aboutIcon from "../assets/about.png";
+import skillIcon from "../assets/skill.png";
+import projetIcon from "../assets/projet.png";
 
 function Navigation() {
   return (
     <>
       {/* Menu du bas : Navigation avec icônes circulaires */}
       <div className="text-teal-600 mt-20 flex justify-center border-t pt-8">
-        <NavItem icon="./src/assets/about.png" label="About" />
-        <NavItem icon="./src/assets/skill.png" label="Experiences" />
-        <NavItem icon="./src/assets/projet.png" label="Projects" />
+        <NavItem icon={aboutIcon} label="About" />
+        <NavItem icon={skillIcon} label="Experiences" />
+        <NavItem icon={projetIcon} label="Projects" />
       </div>
     </>
   );
