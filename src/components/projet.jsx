@@ -181,7 +181,7 @@ function Projet() {
                     {visibleCount < projets.length && (
                         <button 
                             onClick={showMore}
-                            className="w-full py-2 bg-teal-600 text-white rounded mt-4 hover:bg-teal-700 font-bold transition-colors"
+                            className="w-full py-2 bg-teal-600 rounded mt-4 hover:bg-teal-700 font-bold transition-colors"
                         >
                             Voir +
                         </button>
