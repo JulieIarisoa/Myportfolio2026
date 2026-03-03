@@ -3,55 +3,82 @@ import portfolio1 from "../assets/images/portfolio1.PNG";
 import portfolio2 from "../assets/images/portfolio2.PNG";
 import portfolio3 from "../assets/images/portfolio3.PNG";
 import portfolio4 from "../assets/images/portfolio4.PNG";
-import about from "../assets/git.png";
-import git from "../assets/git.png";
+//image pour online school
+import monitoring1 from "../assets/images/monitoring1.PNG";
+import monitoring2 from "../assets/images/monitoring2.PNG";
+import monitoring3 from "../assets/images/monitoring3.PNG";
+import monitoring4 from "../assets/images/monitoring4.PNG"
+//image pour real-estate
+import real_estate1 from "../assets/images/real-estate1.PNG";
+import real_estate2 from "../assets/images/real-estate2.PNG";
+import real_estate3 from "../assets/images/real-estate3.PNG";
+//image pour nosy be
+import nosyBe1 from "../assets/images/nosyBe1.PNG";
+import nosyBe2 from "../assets/images/nosyBe2.PNG";
+import nosyBe3 from "../assets/images/nosyBe3.PNG";
+
+//image pour pixel art
+import pixelArt from "../assets/images/pixel.PNG";
+
+//image pour extension chrome
+import extChrome from "../assets/images/extChrome.png";
+import extChrome1 from "../assets/images/extChrome1.PNG";
 
 function Projet() {
     const projets = [
         {
-            theme: "My portfolio",
-            date: "février 2026",
-            description: "To present my activity",
-            features: ["Home", "About Me", "My experiences", "My projects"],
+            theme: "Personal Portfolio",
+            date: "February 2026",
+            description: "A professional showcase designed to present my web development activities, skills, and creative journey.",
+            features: ["Interactive Home Page", "Detailed About Me section", "Experience Timeline", "Dynamic Project Gallery"],
             lien_git: "https://github.com/JulieIarisoa/Myportfolio2026.git",
-            tech: "Reactjs, Typescript",
-            images: [portfolio1, portfolio2, portfolio3, portfolio4] // On a 3 images ici
+            tech: "React.js, TypeScript",
+            images: [portfolio1, portfolio2, portfolio3, portfolio4]
         },
         {
-            theme: "Online school like real",
-            date: "sept 2025 - now",
-            description: "Une application web pour facilité l'apprentissage en ligne. C'est une projet personnele",
-            features: ["Share white dashboard", "Evaluation pagrammated", "Automatique correction"],
-            lien_git: "https://github.com",
-            tech: "Laravel, Vuejs, Tailwind",
-            images: [about, git, about] // On a 3 images ici
+            theme: "Online School Management",
+            date: "Sept 2025 - Present",
+            description: "A comprehensive web application designed to streamline online learning. This is a personal project focused on pedagogical efficiency.",
+            features: ["Shared Whiteboard", "Scheduled Evaluations", "Automated Grading System"],
+            lien_git: "https://github.com/JulieIarisoa/App_monitoring",
+            tech: "Laravel, Vue.js, Tailwind CSS",
+            images: [monitoring1, monitoring2, monitoring3, monitoring4]
         },
         {
-            theme: "Real estate",
-            date: "jan 2026 - feb 2026",
-            description: "Une application web/mobile pour la recherche d'une maison ou terrain à avendre ou alouer. C'est une projet en équipe , dont je suis développeur backend nodejs, concepteur de la base de données et designer tout au long du projet.",
-            features: ["Cherche", "publiate", "Facilité Payement"],
-            lien_git: "https://github.com",
-            tech: "Express.js, reactjs, react native, postgresql",
-            images: [about, git, about] // On a 3 images ici
+            theme: "Real Estate Platform",
+            date: "Jan 2026 - Feb 2026",
+            description: "A cross-platform web and mobile application for buying and renting property. As part of a team, I served as the Backend Developer (Node.js), Database Architect, and UI Designer.",
+            features: ["Advanced Search Filters", "Property Listing Management", "Integrated Payment Solutions"],
+            lien_git: "https://github.com/HasinaManjaka/real-estate",
+            tech: "Express.js, React, React Native, PostgreSQL",
+            images: [real_estate1, real_estate2, real_estate3]
         },
         {
-            theme: "Tourism website",
-            date: "Aout 2025",
-            description: "Site web pour représenter le service d'un guide touristique de Nosy be. C'est un projet d'un client que je fait du conception au déployement.",
-            features: ["Traduction in englis, french and polonais", "Update offer every 1/2 of the year", "Presente the place that the visitor will love"],
-            lien_git: "https://github.com",
-            tech: "React.js, Css",
-            images: [about, git, about] // On a 3 images ici
+            theme: "Nosy Be Tourism Guide",
+            date: "August 2025",
+            description: "A client project developed from design to deployment, showcasing tourism services for Nosy Be, Madagascar.",
+            features: ["Multi-language support (English, French, Polish)", "Dynamic Seasonal Offers", "Curated Local Attractions"],
+            lien_git: "https://github.com/JulieIarisoa/SITE-DE-TOURISME-NOSY-BE",
+            tech: "React.js, CSS3",
+            images: [nosyBe1, nosyBe2, nosyBe3]
         },
         {
-            theme: "Chrome extension",
-            date: "fun project",
-            description: "Des extension chrome pour déverouiller la connaissance des bases.",
-            features: ["Cherache color", "Pomodoro", "Hour and date visualisation","Motivation for every new onglet"],
-            lien_git: "https://github.com",
-            tech: "HTML, CSS, Javascript",
-            images: [about, git, about] // On a 3 images ici
+            theme: "Productivity Chrome Extension",
+            date: "Personal Project",
+            description: "A multi-tool browser extension designed to enhance focus and provide quick access to essential utilities.",
+            features: ["Color Picker", "Pomodoro Timer", "Real-time Clock & Date", "Daily Motivational Quotes"],
+            lien_git: "https://github.com/JulieIarisoa/ExtensionChrome_RechercheCouleur",
+            tech: "HTML, CSS, JavaScript",
+            images: [extChrome, extChrome1]
+        },
+        {
+            theme: "Pixel Art Creator",
+            date: "Nov 2025",
+            description: "A vanilla JavaScript challenge completed in 72 hours without AI assistance, focusing on DOM manipulation and core programming logic.",
+            features: ["Grid-based Drawing", "Custom Color Palette", "Downloadable Canvas"],
+            lien_git: "https://github.com/JulieIarisoa/Pixel-arts",
+            tech: "HTML, CSS, JavaScript",
+            images: [pixelArt]
         },
     ];
     //Pour afficher le détail d'un projet sélectionné
