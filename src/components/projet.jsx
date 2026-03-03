@@ -22,7 +22,7 @@ import pixelArt from "../assets/images/pixel.PNG";
 
 //image pour extension chrome
 import extChrome from "../assets/images/extChrome.png";
-import extChrome1 from "../assets/images/extChrome1.PNG";
+import extChrome1 from "../assets/images/extChrome1.png";
 
 function Projet() {
     const projets = [
