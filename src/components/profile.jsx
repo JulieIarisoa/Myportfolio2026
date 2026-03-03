@@ -10,7 +10,7 @@ function Profile() {
   return (
     <div className="m-30">
       {/* Petits points décoratifs en haut à droite */}
-      <div className="absolute w-20 h-20 top-8 right-12 flex gap-2" id="profil">
+      <div className="absolute w-20 h-20 top-8 right-8 flex gap-2 fixed" id="profil">
         <img 
             src={logoImg}  
             alt="Julie HARISOA" 
