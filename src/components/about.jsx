@@ -1,9 +1,9 @@
-import Navigation from './navigation';
+/*import Navigation from './navigation';*/
 
 const AboutMe = () => {
   return (
-    <>
-        <div className=" flex items-left justify-center  mt-4 font-sans mt-20">
+    <div className="m-30">
+        <div className=" flex items-left justify-center  mt-4 font-sans mt-20" id='about'>
             {/* Section Contenu */}
             <div className="w-full ">
                 <header className="mb-6">
@@ -80,9 +80,9 @@ const AboutMe = () => {
             </div>
         </div>
 
-        {/*Menu pour le navigation*/}
-        <Navigation/>
-    </>
+        {/*Menu pour le navigation
+        <Navigation/>*/}
+    </div>
   );
 };
 

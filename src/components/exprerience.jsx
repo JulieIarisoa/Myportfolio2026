@@ -5,14 +5,14 @@ function Experience() {
   const experiences = [
     {
       title: "Web Development Mentor",
-      company: "Coder dojo Fianarantsoa",
+      company: "Coderdojo Fianarantsoa",
       description:
-        "Teaching web development fundamentals (HTML5 and CSS3) to high school students, collaborating with Coder Dojo in FIANARANTSOA every Saturday from 8 to 10 AM.",
+        "Teaching web development fundamentals (HTML5 and CSS3) to high school students, collaborating with CoderDojo in FIANARANTSOA every Saturday from 8 to 10 AM.",
       date: "octobre 2023 - présent",
     },
     {
       title: "Communications Manager",
-      company: "Coder dojo Fianarantsoa",
+      company: "Coderdojo Fianarantsoa",
       description:
         "Managing the CoderDojo Fianarantsoa page by creating content and responding to all incoming messages, sharing important information with members whenever necessary.",
       date: "Novembre 2023 - présent",
@@ -46,10 +46,10 @@ function Experience() {
   ];
 
   return (
-    <div className=" min-h-screen  font-sans">
-      <div className="max-w-5xl mx-auto">
+    <div className="m-30" id="experience">
+      <div className=" mx-auto">
         <h3 className="text-3xl font-bold text-center mt-12 mb-12">
-          Mes expériences
+          My expériences
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

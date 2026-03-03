@@ -8,9 +8,9 @@ function Navigation() {
     <>
       {/* Menu du bas : Navigation avec icônes circulaires */}
       <div className="text-teal-600 mt-20 flex justify-center border-t pt-8">
-        <NavItem icon={aboutIcon} label="About" />
-        <NavItem icon={skillIcon} label="Experiences" />
-        <NavItem icon={projetIcon} label="Projects" />
+        <a href="#about"><NavItem icon={aboutIcon} label="About" /></a>
+        <a href="#experience"><NavItem icon={skillIcon} label="Experiences" /></a>
+        <a href="#project"><NavItem icon={projetIcon} label="Projects" /></a>
       </div>
     </>
   );
