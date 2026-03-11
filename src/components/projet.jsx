@@ -16,6 +16,10 @@ import real_estate3 from "../assets/images/real-estate3.PNG";
 import nosyBe1 from "../assets/images/nosyBe1.PNG";
 import nosyBe2 from "../assets/images/nosyBe2.PNG";
 import nosyBe3 from "../assets/images/nosyBe3.PNG";
+//i;qge pour artisan
+import artisan1 from "../assets/images/artisan1.PNG"
+import artisan2 from "../assets/images/artisan2.PNG"
+import artisan3 from "../assets/images/artisan3.PNG"
 
 //image pour pixel art
 import pixelArt from "../assets/images/pixel.PNG";
@@ -26,6 +30,15 @@ import extChrome1 from "../assets/images/extChrome1.png";
 
 function Projet() {
     const projets = [
+        {
+            theme: "Artisan plateforme",
+            date: "March 2026",
+            description: "One plateforme to sell the art malagasy",
+            features: ["Grid-based Drawing", "Custom Color Palette", "Downloadable Canvas"],
+            lien_git: "https://www.figma.com/design/jC7vejw39M281VF0PnQcV2/artisan?node-id=0-1&t=6CwWKs7Tpzy5hVkv-1",
+            tech: "Figma",
+            images: [artisan1, artisan2, artisan3]
+        },
         {
             theme: "Personal Portfolio",
             date: "February 2026",
