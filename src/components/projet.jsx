@@ -33,7 +33,7 @@ function Projet() {
         {
             theme: "Artisan plateforme",
             date: "March 2026",
-            description: "One plateforme to sell the art malagasy",
+            description: "A platform to sell Malagasy art.",
             features: ["Grid-based Drawing", "Custom Color Palette", "Downloadable Canvas"],
             lien_git: "https://www.figma.com/design/jC7vejw39M281VF0PnQcV2/artisan?node-id=0-1&t=6CwWKs7Tpzy5hVkv-1",
             tech: "Figma",
