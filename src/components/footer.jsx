@@ -56,10 +56,10 @@ function Footer() {
             Quick Links
           </h4>
           <ul className="space-y-2">
-            <li><a href="#profil" className="text-teal-100 hover:text-white hover:pl-2 transition-all block">→ Profile</a></li>
-            <li><a href="#about" className="text-teal-100 hover:text-white hover:pl-2 transition-all block">→ About Me</a></li>
-            <li><a href="#experience" className="text-teal-100 hover:text-white hover:pl-2 transition-all block">→ My Experiences</a></li>
-            <li><a href="#project" className="text-teal-100 hover:text-white hover:pl-2 transition-all block">→ My Projects</a></li>
+            <li><a href="#profil" className="text-white-100 hover:text-white hover:pl-2 transition-all block">→ Profile</a></li>
+            <li><a href="#about" className="text-white-100 hover:text-white hover:pl-2 transition-all block">→ About Me</a></li>
+            <li><a href="#experience" className="text-white-100 hover:text-white hover:pl-2 transition-all block">→ My Experiences</a></li>
+            <li><a href="#project" className="text-white-100 hover:text-white hover:pl-2 transition-all block">→ My Projects</a></li>
           </ul>
         </div>
 

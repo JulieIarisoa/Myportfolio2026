@@ -22,7 +22,7 @@ function Experience() {
       company: "Paositra Malagasy Fianarantsoa",
       description:
         "Entering, verifying, correcting, and recording client data for the 'Tsinjo Lavitra' accounts at Paositra Malagasy Fianarantsoa.",
-      date: "Janvier 2023 - Mars 2023",
+      date: "Janvier 2025 - Mars 2025",
     },
     {
       title: "Software Developer Intern",
